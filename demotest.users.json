@@ -1,0 +1,119 @@
+[{
+  "_id": {
+    "$oid": "65d8582bda436c3ea51dbb7d"
+  },
+  "username": "ndrarendra1",
+  "email": "aaaa@aaaa.com",
+  "password": "$2a$10$/vgIgtUt342OWfaqyGTzWO.Qy3yMu4r9EM5V1WSaiXrEKdJMl4qp.",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65d75283d459122f8f67c3fa"
+      }
+    }
+  ],
+  "_class": "test.demo.demo.model.User"
+},
+{
+  "_id": {
+    "$oid": "65d8ab977ba62874b804ca57"
+  },
+  "username": "ndra1",
+  "email": "a1aaa@aaaa.com",
+  "password": "$2a$10$ZU.5JEKk9QzMaZhHL0OTH.DA1ZcZUhN/O6ZRbe4UD1yr1uj2UxSNW",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65d75283d459122f8f67c3fa"
+      }
+    }
+  ],
+  "_class": "test.demo.demo.model.User"
+},
+{
+  "_id": {
+    "$oid": "65d8ac647ba62874b804ca5a"
+  },
+  "username": "ndra2",
+  "email": "as@as.com",
+  "password": "$2a$10$pvHp.zLqpQ8whCKj6B8YZO5PoSmEbMWimP2AJ32c.3NcSQABM1ZLO",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65d75283d459122f8f67c3fa"
+      }
+    }
+  ],
+  "_class": "test.demo.demo.model.User"
+},
+{
+  "_id": {
+    "$oid": "65d8ac897ba62874b804ca5c"
+  },
+  "username": "ndra3",
+  "email": "as@asa.com",
+  "password": "$2a$10$qxcMEJx3r.ZLN7mrAyFhHu0pTEV2ccPPxMCwEU3eJH14R.5pTHlSe",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65d75283d459122f8f67c3fa"
+      }
+    }
+  ],
+  "_class": "test.demo.demo.model.User"
+},
+{
+  "_id": {
+    "$oid": "65d8acac7ba62874b804ca5e"
+  },
+  "username": "ndra4",
+  "email": "as@a1sa.com",
+  "password": "$2a$10$c61.KRo33QwW42u5b5m/qepIBHBipuIcULgzQwe8X42lClSmiGEuW",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65d75283d459122f8f67c3fa"
+      }
+    }
+  ],
+  "_class": "test.demo.demo.model.User"
+},
+{
+  "_id": {
+    "$oid": "65d8acf5d02a4208f4548b12"
+  },
+  "username": "ndra5",
+  "email": "1as@a1sa.com",
+  "password": "$2a$10$c.xHrSm257ai5a1QDBWZwe3DuokY/rnzHfeQB0JN1OH/Q39drCAW6",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65d75283d459122f8f67c3fa"
+      }
+    }
+  ],
+  "_class": "test.demo.demo.model.User"
+},
+{
+  "_id": {
+    "$oid": "65d8ad17d02a4208f4548b14"
+  },
+  "username": "ndra52",
+  "email": "1qas@a1sa.com",
+  "password": "$2a$10$L9lEqeuUsxc4lPi4Lm6L8.QRAYBHeBBHj9wKcs2JDPW6s.OkdBzuS",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65d8abf1d459122f8f67c477"
+      }
+    }
+  ],
+  "_class": "test.demo.demo.model.User"
+}]

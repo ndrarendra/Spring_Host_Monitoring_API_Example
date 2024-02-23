@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "65d866ac62079f1a90bdb7db"
+  },
+  "name": "11111",
+  "ipaddress": "aaaa",
+  "author": "xxxxxx",
+  "createdAt": {
+    "$date": "2024-02-23T09:34:36.548Z"
+  },
+  "lastUpdatedAt": {
+    "$date": "2024-02-23T09:34:36.548Z"
+  },
+  "_class": "test.demo.demo.model.IPaddress"
+},
+{
+  "_id": {
+    "$oid": "65d86f72b76f256fbcfcf52a"
+  },
+  "name": "test",
+  "ipaddress": "8.8.8.8",
+  "author": "AMR",
+  "createdAt": {
+    "$date": "2024-02-23T10:12:02.913Z"
+  },
+  "lastUpdatedAt": {
+    "$date": "2024-02-23T10:12:02.913Z"
+  },
+  "_class": "test.demo.demo.model.IPaddress"
+},
+{
+  "_id": {
+    "$oid": "65d8734d892ddd4408c3375b"
+  },
+  "name": "test1",
+  "ipaddress": "8.8.8.9",
+  "author": "1111",
+  "createdAt": {
+    "$date": "2024-02-23T10:28:29.473Z"
+  },
+  "lastUpdatedAt": {
+    "$date": "2024-02-23T10:28:29.473Z"
+  },
+  "_class": "test.demo.demo.model.IPaddress"
+},
+{
+  "_id": {
+    "$oid": "65d88e35bb5a6f5c8dec98c9"
+  },
+  "name": "aaa",
+  "ipaddress": "zxzzz",
+  "author": "cccccc",
+  "createdAt": {
+    "$date": "2024-02-23T12:23:17.904Z"
+  },
+  "lastUpdatedAt": {
+    "$date": "2024-02-23T12:23:17.904Z"
+  },
+  "_class": "test.demo.demo.model.IPaddress"
+}]
