@@ -23,5 +23,9 @@ roles
     - ROLE_USER
     - ROLE_ADMIN
 
+Please use the Visual studio code and running from the visual studio code 
+
+Please Open this OpenAPI / Swagger for testing 
+http://localhost:8080/swagger-ui/index.html
 
 
