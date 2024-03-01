@@ -1,8 +1,8 @@
-package test.demo.demo.payload.request;
+package test.demo.demo.repository;
 
 import jakarta.validation.constraints.NotBlank;
 
-public class LoginRequest {
+public class LoginRepository {
   @NotBlank
   private String username;
 

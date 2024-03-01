@@ -27,18 +27,16 @@ import test.demo.demo.model.AuditTrail;
 import test.demo.demo.model.ERole;
 import test.demo.demo.model.Role;
 import test.demo.demo.model.User;
-import test.demo.demo.payload.request.LoginRequest;
-import test.demo.demo.payload.request.SignupRequest;
 import test.demo.demo.payload.response.UserInfoResponse;
 import test.demo.demo.payload.response.MessageResponse;
 import test.demo.demo.repository.ATrailRepository;
+import test.demo.demo.repository.LoginRepository;
 import test.demo.demo.repository.RoleRepository;
+import test.demo.demo.repository.SignupRepository;
 import test.demo.demo.repository.UserRepository;
 import test.demo.demo.security.jwt.JwtUtils;
 import test.demo.demo.service.UserDetailsImpl;
 
-//for Angular Client (withCredentials)
-//@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600, allowCredentials="true")
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
@@ -64,7 +62,7 @@ public class AuthController {
   ATrailRepository aTrailRepository;
 
   @PostMapping("/signin")
-  public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
+  public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRepository loginRequest) {
     String timeStamp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new java.util.Date());
     Authentication authentication = authenticationManager.authenticate(
         new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
@@ -91,7 +89,7 @@ public class AuthController {
   }
 
   @PostMapping("/signup")
-  public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
+  public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRepository signUpRequest) {
     if (userRepository.existsByUsername(signUpRequest.getUsername())) {
       return ResponseEntity
           .badRequest()

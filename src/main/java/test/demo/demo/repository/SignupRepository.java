@@ -1,10 +1,12 @@
-package test.demo.demo.payload.request;
+package test.demo.demo.repository;
 
 import java.util.Set;
 
-import jakarta.validation.constraints.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
-public class SignupRequest {
+public class SignupRepository {
   @NotBlank
   @Size(min = 3, max = 20)
   private String username;
